@@ -1,0 +1,20 @@
+--- origsrc/clutter-gtkmm-0.9.5/configure.ac	2010-01-08 02:01:45.000000000 -0600
++++ src/clutter-gtkmm-0.9.5/configure.ac	2010-01-22 13:06:18.800313500 -0600
+@@ -31,7 +31,7 @@ AM_MAINTAINER_MODE
+ AC_ARG_VAR([ACLOCAL_FLAGS], [aclocal flags, e.g. -I <macro dir>])
+ 
+ MM_PREREQ([0.8])
+-MM_INIT_MODULE([clutter-gtkmm-1.0])
++MM_INIT_MODULE([clutter-gtkmm-0.10])
+ 
+ # http://www.gnu.org/software/libtool/manual/html_node/Updating-version-info.html
+ AC_SUBST([CLUTTER_GTKMM_SO_VERSION], [0:0:0])
+@@ -41,7 +41,7 @@ AC_DISABLE_STATIC
+ AC_LIBTOOL_WIN32_DLL
+ AC_PROG_LIBTOOL
+ 
+-AC_SUBST([CLUTTER_GTKMM_MODULES], ['clutter-gtk-0.90 >= 0.90 cluttermm-1.0 >= 0.9 gtkmm-2.4 >= 2.18'])
++AC_SUBST([CLUTTER_GTKMM_MODULES], ['clutter-gtk-0.10 >= 0.10 cluttermm-1.0 >= 0.9 gtkmm-2.4 >= 2.18'])
+ PKG_CHECK_MODULES([CLUTTER_GTKMM], [$CLUTTER_GTKMM_MODULES])
+ 
+ MM_PKG_CONFIG_SUBST([GMMPROC_DIR], [--variable=gmmprocdir glibmm-2.4])

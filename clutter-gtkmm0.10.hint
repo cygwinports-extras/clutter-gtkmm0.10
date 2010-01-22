@@ -1,0 +1,3 @@
+category: Gnome X11
+sdesc: "C++ clutter-gtk bindings (sources)"
+ldesc: "C++ bindings for the Clutter gtk library."

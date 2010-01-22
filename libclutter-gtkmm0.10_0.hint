@@ -1,0 +1,5 @@
+category: Gnome X11
+requires: libatkmm1.6_1 libclutter-gtk0.10_0 libcluttermm1.0_0 libclutter1.0_0 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtkmm2.4_1 libsigc2.0_0 libstdc++6
+external-source: clutter-gtkmm0.10
+sdesc: "C++ clutter-gtk bindings (runtime)"
+ldesc: "C++ bindings for the Clutter gtk library."

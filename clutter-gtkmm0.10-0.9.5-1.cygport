@@ -1,0 +1,6 @@
+ORIG_PN="clutter-gtkmm"
+inherit gtkmm
+
+PKG_NAMES="${PN} lib${PN}_1 lib${PN}-devel"
+libclutter_gtkmm0_10_1_CONTENTS="usr/bin/*-0.10-1.dll usr/share/doc/"
+libclutter_gtkmm0_10_devel_CONTENTS="usr/include/ usr/lib/"
